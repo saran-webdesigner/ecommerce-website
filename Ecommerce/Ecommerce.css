@@ -1,0 +1,599 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 48px;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(110, 110, 110, 0.068);
+}
+
+.links ul {
+  display: flex;
+  gap: 32px;
+}
+
+.icons {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #807d7e;
+  font-size: 16px;
+}
+
+#shop {
+  color: #3c4242;
+  font-weight: 600;
+}
+
+input {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: #f6f6f6;
+  border: none;
+  border-radius: 8px;
+  width: 240px;
+}
+
+.icon {
+  padding: 12px;
+  border-radius: 6px;
+  background-color: #f6f6f6;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: none;
+}
+
+/* Banner Image */
+
+.banner-image {
+  overflow: hidden;
+}
+
+.banner-text {
+  position: relative;
+  top: -550px;
+  margin-left: 48px;
+}
+
+.banner-text span {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.banner-text h4 {
+  font-size: 52px;
+  width: 520px;
+  color: white;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.banner-text p {
+  font-size: 16px;
+  color: rgb(243, 243, 243);
+  width: 580px;
+  line-height: 24px;
+}
+
+.banner-text button {
+  padding: 16px 58px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  color: #3c4242;
+  background-color: white;
+  margin-top: 24px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rectangle {
+  width: 6px;
+  height: 30px;
+  background-color: #8a33fd;
+  border-radius: 50px;
+}
+
+.arrival-tittle h4 {
+  font-size: 24px;
+}
+
+.arrival-tittle {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.new-arrival {
+  margin-top: -148px;
+  padding-left: 48px;
+}
+
+.arrival-imagecontainer {
+  display: flex;
+  gap: 38px;
+  margin-top: 52px;
+}
+
+.image p {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.big-tittle h4 {
+  font-size: 24px;
+}
+
+.big-tittle {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.big-saving {
+  margin-top: 98px;
+  padding-left: 48px;
+}
+
+.saving-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 52px;
+}
+
+.saving-image-container {
+  height: 396px;
+}
+
+.image-content {
+  position: relative;
+  top: -340px;
+  color: white;
+  margin-left: 20px;
+}
+
+.image-content h3 {
+  font-size: 28px;
+  width: 140px;
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.image-content p {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.image-content h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.image-content img {
+  position: relative;
+  left: 42px;
+  margin-top: 14px;
+}
+
+.image-content button {
+  padding: 10px 24px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  border-radius: 4px;
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  cursor: pointer;
+}
+
+#saving-2 {
+  margin-left: 230px;
+}
+
+#saving-2 h3 {
+  text-align: right;
+}
+
+#saving-3 {
+  margin-left: 230px;
+  color: #3c4242;
+}
+
+#saving-3 button {
+  border: 1px solid #3c4242;
+  color: #3c4242;
+  font-weight: 600;
+}
+
+#saving-3 img svg {
+  border: 1px solid #3c4242;
+}
+
+#saving-4 {
+  margin-left: 350px;
+  color: #3c4242;
+}
+
+#saving-5 {
+  margin-left: 350px;
+  color: #3c4242;
+}
+
+#saving-4 button {
+  border: 1px solid #3c4242;
+  color: #3c4242;
+  font-weight: 600;
+}
+
+#saving-5 button {
+  border: 1px solid #3c4242;
+  color: #3c4242;
+  font-weight: 600;
+}
+
+/* Adv Banner */
+
+.adv-banner {
+  padding-left: 48px;
+  margin-top: 86px;
+}
+
+.adv-text {
+  position: relative;
+  top: -500px;
+  color: white;
+  margin-left: 52px;
+}
+
+.adv-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  width: 450px;
+  line-height: 46px;
+}
+
+.adv-text p {
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 400;
+  width: 480px;
+  line-height: 24px;
+  color: #f6f6f6d0;
+}
+
+.adv-text button {
+  padding: 12px 48px;
+  color: #3c4242;
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  margin-top: 48px;
+  border-radius: 8px;
+}
+
+/* Categories for Men */
+
+.men-category {
+  margin-top: -120px;
+  padding-left: 48px;
+}
+
+.men-tittle {
+  display: flex;
+  gap: 12px;
+  text-align: center;
+}
+
+.men-tittle h4 {
+  font-size: 24px;
+}
+
+.category-container {
+  margin-top: 52px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 52px;
+}
+
+.category-text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.content p {
+  color: #7f7f7f;
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.women-category {
+  margin-top: 58px;
+  padding-left: 48px;
+}
+
+/* Brand Container */
+
+.brand-container {
+  width: 1254px;
+  height: auto;
+  background-color: #3c4242;
+  color: white;
+  margin-left: 48px;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+  margin-top: 64px;
+}
+
+.brand-container h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+.brand-container span {
+  color: #fbd103;
+}
+
+.brand-container p {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.brand-list {
+  margin-top: 42px;
+}
+
+.brand-list img {
+  margin-right: 24px;
+  cursor: pointer;
+}
+
+/* Limelight */
+
+.like {
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  background-color: white;
+  position: absolute;
+  top: 24px;
+  align-content: center;
+  text-align: center;
+  left: 220px;
+  cursor: pointer;
+}
+
+.image-card-container {
+  position: relative;
+}
+
+.price {
+  padding: 10px 16px;
+  background-color: #f6f6f6;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.limelight {
+  padding-left: 48px;
+  margin-top: 68px;
+}
+
+/* Feedback */
+
+.feedback {
+  margin-top: 58px;
+  padding-left: 48px;
+}
+
+.feedback-section {
+  margin-top: 52px;
+  display: flex;
+  gap: 40px;
+}
+
+.feedback-container {
+  width: 342px;
+  border: 1.5px solid #bebcbd;
+  border-radius: 10px;
+  padding: 24px;
+}
+
+.image-sec {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-content {
+  margin-top: 24px;
+}
+
+.feedback-content h3 {
+  margin-bottom: 12px;
+}
+
+.feedback-content p {
+  font-size: 14px;
+  color: #807d7e;
+  line-height: 20px;
+}
+
+/* Footer Section */
+
+footer {
+  background-color: #3c4242;
+  color: white;
+  margin-top: 58px;
+  padding-top: 58px;
+  padding-left: 48px;
+  padding-bottom: 16px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 200px;
+}
+
+.footer-links h3 {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 28px;
+}
+
+.footer-links a {
+  font-size: 14px;
+  color: #f6f6f6de;
+}
+
+.footer-links li {
+  margin-bottom: 20px;
+}
+
+.footer-links p {
+  font-size: 14px;
+  color: #f6f6f6de;
+  margin-bottom: 20px;
+}
+
+footer hr {
+  width: 98%;
+  border: 0.2px solid #bebcbda2;
+  margin-top: 16px;
+}
+
+footer .copy-rights {
+  margin-top: 24px;
+  font-size: 14px;
+  color: rgb(226, 226, 226);
+  text-align: center;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+
+  .icons {
+    display: none;
+  }
+
+  .links {
+    display: none;
+  }
+
+  nav {
+    padding: 24px 24px;
+  }
+
+  input {
+    display: none;
+  }
+
+  /* Banner Text */
+
+  .banner-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-text {
+    margin-left: 24px;
+    overflow: hidden;
+  }
+
+  .banner-text p {
+    width: 420px;
+  }
+
+  /* Arrival Container */
+
+  .arrival-imagecontainer{
+    flex-direction: column;
+  }
+
+  
+
+  /* Brand Container */
+
+  .brand-container{
+    display: none;
+  }
+
+  /* Feedback */
+  
+  .feedback-section{
+    flex-direction: column;
+  }
+
+
+ .shirt-img{
+  width: 400px;
+ }
+
+ /* Adv Banner */
+
+ .adv-banner{
+  display: none;
+ }
+
+ #fourth-box{
+  display: none;
+ }
+
+ .new-arrival{
+  display: none;
+ }
+
+ /* Big Saving */
+
+ .big-saving{
+  margin-top: -210px;
+ }
+
+ .men-category{
+  margin-top: 62px;
+ }
+
+ /* Footer Section */
+
+ .footer-links{
+  flex-wrap: wrap;
+  gap: 30%;
+ }
+
+ .section3{
+  margin-top: 24px;
+  margin-bottom: 24px;
+ }
+
+
+}
